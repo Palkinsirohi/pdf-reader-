@@ -1,0 +1,78 @@
+# Python environment and virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+.venv
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ChromaDB local database and cache
+chroma_db/chroma.db
+chroma_db/.chroma/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temp files
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# Project-specific
+uploads/
+temp/
+tmp/
+
+# Flask instance folder
+instance/
+.webassets-cache
+
+# Pytest
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env.local
+.env.*.local
